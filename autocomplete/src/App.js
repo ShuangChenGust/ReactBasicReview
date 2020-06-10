@@ -22,7 +22,7 @@ function App() {
       <FragmentDemo></FragmentDemo> */}
       {/* <table></table>
       <PureComp></PureComp> */}
-      <ClickCouner></ClickCouner>
+      <ClickCouner name = "Victor"></ClickCouner>
       <HoverCounter></HoverCounter>
     </div>
   );
