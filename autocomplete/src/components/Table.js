@@ -1,14 +1,16 @@
 import React from 'react'
+import Columns from './Columns'
 
 function Table() {
     return (
-        <table>
-            <tbody>
-                <tr>
-                    <columns></columns>
-                </tr>
-            </tbody>
-        </table>
+       <table>
+           <tbody>
+               <tr>
+                   <Columns></Columns>
+               </tr>
+           </tbody>
+       </table>
     )
 }
+
 export default Table

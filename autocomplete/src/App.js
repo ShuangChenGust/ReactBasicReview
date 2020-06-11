@@ -1,29 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import AutoCompletedText from './AutoCompletedText';
-import EventBind from './components/EventBind';
+import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
-import PureComp from './components/PureComponent';
-import ParentCom from './components/ParentComp';
+// import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
 import ClickCouner from './components/ClickCouner';
 import HoverCounter from './components/HoverCounter';
-import WithCounter from './components/WithCounter';
-
+import ClassCounter from './components/ClassCounter';
+import HookCounter from './components/HookCounter';
+import HookCounterTwo from './components/HookCounterTwo';
 
 function App() {
   return (
     <div className="App">
-      {/* <AutoCompletedText></AutoCompletedText>
-      <EventBind></EventBind> */}
-      {/* <ParentComponent></ParentComponent>
-      <FragmentDemo></FragmentDemo> */}
-      {/* <table></table>
-      <PureComp></PureComp> */}
-      <ClickCouner name = "Victor"></ClickCouner>
-      <HoverCounter></HoverCounter>
+      {/* <AutoCompletedText></AutoCompletedText> */}
+      {/* <EventBind></EventBind> */}
+      {/* <ParentComponent></ParentComponent> */}
+      {/* <FragmentDemo></FragmentDemo> */}
+      {/* <Table></Table> */}
+      {/* <ParentComp></ParentComp> */}
+      {/* <ClickCouner name = "Victor"></ClickCouner>
+      <HoverCounter></HoverCounter> */}
+      {/* <ClassCounter></ClassCounter>
+      <HookCounter></HookCounter> */}
+      <HookCounterTwo></HookCounterTwo>
     </div>
   );
 }
